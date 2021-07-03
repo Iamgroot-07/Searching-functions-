@@ -1,6 +1,7 @@
 import random
 from time import sleep
 import string
+#the modules are imported
 
 print(
     "Disclaimer! : If the particular block of code of this application ever runs again It is because you have given a"
@@ -12,8 +13,8 @@ print()
 print("The password generator is now running")
 print(), sleep(0.7)
 
-def Rblock1():
-    try:
+def Rblock1(): #forming a nested function allows you to make exception recursively 
+    try: 
         def Rblock2():
             global a
             a = []
@@ -29,15 +30,17 @@ def Rblock1():
                           "'*In "
                           "a"
                           "*proper manner*'"), print()
-        print(e, ValueError)
-        Rblock1()
+        print(e, ValueError)                                                                                                     
+        Rblock1() #In exception it goes iterates again from the first like a new code 
     finally:
         print("we are safe and done with Numbers block")
         print(a)
-Rblock1()
+Rblock1()#The functions are actually called out
 
 sleep(0.5)
 print(), print("Now, the alphabets 'either Caps or small its ur wish'")
+
+#REST OF THE CODE BLOCKS CAN BE UNDERSTOOD EASILY AND MOST ARE LIKE Rbllock1()
 
 def Rblock3():
     def Rblock4():
@@ -101,4 +104,4 @@ def Rblock7():
             print(e, "Looks like you have committed a small error in input of shuffling")
             Rblock7()
 Rblock7()
-sleep(0,0), print("Thank you for using my services mam/sir")
+sleep(0.0), print("Thank you for using my services mam/sir")
