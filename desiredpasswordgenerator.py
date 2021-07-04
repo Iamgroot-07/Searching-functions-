@@ -75,7 +75,7 @@ def Rblock5():
             u = input("please enter the symbols you would like to have in your password")
             c.append(u)
         print("the symbols you  desired are - ", c)
-        if u not in string.punctuation or string.whitespace:
+        if u not in string.punctuation:
             sleep(0.3), print("It seems like you have mad e some errors 'Error might be a incorrect input', *So, "
                               "We recommend you "
                               "to mark the characters well again*")
