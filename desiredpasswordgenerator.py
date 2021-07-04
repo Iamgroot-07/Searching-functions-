@@ -99,9 +99,9 @@ def Rblock7():
             for q1 in d:
                 print(q1, end="")
             print("We are safe and done with the full block")
-            Rblock8()
         except TypeError or ValueError as e:
             print(e, "Looks like you have committed a small error in input of shuffling")
             Rblock7()
+    Rblock8()
 Rblock7()
 sleep(0.0), print("Thank you for using my services mam/sir")
